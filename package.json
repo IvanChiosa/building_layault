@@ -2,7 +2,7 @@
   "name": "spa-boilerplate-building-layout",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://fbw-d05.github.io/spa-29-building-layout-IvanChiosa/",
+  "homepage": "https://ivanchiosa.github.io/building_layault/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "^13.3.0",
@@ -20,7 +20,10 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "clean": "rm -rf build",
+    "publish": "gh-pages -d build",
+    "deploy": "run-s clean build publish"
   },
   "eslintConfig": {
     "extends": [
@@ -44,7 +47,7 @@
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/fbw-d05/spa-29-building-layout-IvanChiosa.git"
+    "url": "git+https://github.com/ivanchiosa.github.io/building_layault.git"
   },
   "keywords": [],
   "author": "",
