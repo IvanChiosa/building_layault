@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/building_layault/static/css/main.c824143c.css",
+    "main.js": "/building_layault/static/js/main.90bea578.js",
+    "index.html": "/building_layault/index.html",
+    "main.c824143c.css.map": "/building_layault/static/css/main.c824143c.css.map",
+    "main.90bea578.js.map": "/building_layault/static/js/main.90bea578.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c824143c.css",
+    "static/js/main.90bea578.js"
+  ]
+}
